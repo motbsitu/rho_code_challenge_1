@@ -21,6 +21,6 @@ if(first === second){
 if (first > second){
   var third = first + second;
 }
-  else{
+  else if (first > second){
     var third = second - first;
   }

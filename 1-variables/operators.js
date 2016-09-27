@@ -5,7 +5,7 @@ var pi = 17;
 var peeps = pi;
 
 // 3 - Decrease the value of peeps by 1
-peeps - 1;
+peeps = peeps - 1;
 
 // 4 - Write a console log that checks if pi is equal to peeps
 console.log(peeps == pi);

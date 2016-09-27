@@ -2,13 +2,21 @@
 
 var arr = [3, 4, 6, 0];
 arr.push(32);
-
+console.log(arr);
 // 2 - Remove the values 4 & 6 from arr using the splice method.
-arr.splice(2, 5); ///check this
+arr.splice(1, 2); //start at one, remove two
 // 3 - Use the sort method to order each array value from smallest to largest.
+//console.log(arr);
 arr.sort();
+
+//console.log(arr);
 /*
 4 - Use the map method to halve the value of each value in the array.
 Assign the result to a new array called newArr. Console.log the new array.
 */
-arr.map([]?/2);
+
+var halfArr =  arr.map(function(arrayCell){
+    return arrayCell / 2;
+});
+
+console.log(halfArr);
